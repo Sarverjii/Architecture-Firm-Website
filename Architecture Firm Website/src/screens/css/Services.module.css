@@ -93,6 +93,9 @@
     grid-template-columns: repeat(auto-fit, minmax(clamp(280px, 300px, 350px), 1fr));
     gap: clamp(1rem, 1.5rem, 2rem);
     padding: clamp(1rem, 2rem, 3rem) 0;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
 }
 
 .servicesSection {
@@ -237,8 +240,9 @@
     }
 
     .boxGrid {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(2, 1fr);
         gap: 1rem;
+        justify-items: center;
     }
 
     .servicesSection {
