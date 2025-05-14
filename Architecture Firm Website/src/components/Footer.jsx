@@ -41,15 +41,15 @@ const Footer = () => {
             <div className={styles.contactSection}>
               <div className={styles.phoneSection}>
                 <h3>PHONE</h3>
-                <p>+919045005510</p>
+                <p>+918707725271</p>
                 <p>10 AM to 7 PM (All Days)</p>
               </div>
 
               <div className={styles.addressSection}>
                 <h3>ADDRESS</h3>
-                <p>Roop Mehal, Prem Gali</p>
-                <p>Kholi Number 420,</p>
-                <p><b>Excuse Me Please</b></p>
+                <p>34 - A/3 1st Floor,</p>
+                <p>BN Road, Lalbagh, Lucknow, </p>
+                <p><b>Uttar Pradesh, 226001</b></p>
               </div>
             </div>
           </div>

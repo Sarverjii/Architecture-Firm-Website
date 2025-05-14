@@ -87,7 +87,7 @@ function Form() {
             <input type="text" placeholder="Budget (if any)" onChange={(e) => setBudget(e.target.value)} />
             <textarea placeholder="Message" onChange={(e) => setMessage(e.target.value)} required />
             <button type="submit" disabled={uploading}>
-              {uploading ? 'Submitting...' : 'Submit Detail'}
+              {uploading ? 'Submitting...' : 'Submit Details'}
             </button>
           </form>
         </div>

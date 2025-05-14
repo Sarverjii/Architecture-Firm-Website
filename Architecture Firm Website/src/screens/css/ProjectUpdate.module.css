@@ -82,4 +82,7 @@
   .submitButton:hover {
     background-color: #21867a;
   }
-  
+  .deleteButton{
+    margin-top: 20px;
+    cursor: pointer;
+  }

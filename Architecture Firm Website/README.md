@@ -8,17 +8,39 @@
 
 ## Getting Started
 
-### Accessing the Website
-1. Open your web browser (Chrome, Firefox, or Safari recommended)
-2. Type the website URL in the address bar: [Your Website URL]
-3. The website will load with the homepage displayed
+### Prerequisites
 
-### Accessing the Admin Dashboard
-1. Go to [Your Website URL]/admin
-2. Enter your admin credentials:
-   - Email: [Your Admin Email]
-   - Password: [Your Password]
-3. Click "Login" to access the dashboard
+- Node.js (v16+ recommended)
+- npm or yarn
+
+### Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Sarverjii/Architecture-Firm-Website.git
+   cd Architecture-Firm-Website
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+
+3. **Set up environment variables:**
+   - Create a `.env` file in the root directory.
+   - Add your Firebase and Cloudinary credentials (see [Environment Variables](#environment-variables)).
+
+4. **Start the development server:**
+   ```bash
+   npm start
+   # or
+   yarn start
+   ```
+
+5. **Open in browser:**
+   - Visit `http://localhost:5173` (or the port shown in your terminal).
 
 ## Public Website Navigation
 
@@ -66,19 +88,6 @@
    - Read client testimonials
    - View design challenges and solutions
 
-### Services Page
-1. **Service Categories**
-   - Browse different service categories
-   - Click on any service for detailed information
-   - View service-specific portfolios
-   - Read about the process
-
-2. **Service Details**
-   - View service description
-   - See process steps
-   - View related projects
-   - Find pricing information
-   - Contact for specific service
 
 ### About Us Page
 1. **Company Information**
@@ -120,11 +129,9 @@
 
 2. **Navigation Menu**
    - Projects
-   - Services
-   - Team
-   - Inquiries
-   - Media
-   - Settings
+   - Messages
+   - Clients
+
 
 ### Project Management
 1. **Adding a New Project**
@@ -146,62 +153,6 @@
    - Update images
    - Save changes
 
-3. **Project Organization**
-   - Drag and drop to reorder
-   - Set featured projects
-   - Add/remove categories
-   - Update project status
-
-### Content Management
-1. **Homepage Content**
-   - Edit hero section
-   - Update featured projects
-   - Modify service highlights
-   - Edit testimonials
-   - Update call-to-action text
-
-2. **Services Management**
-   - Add new services
-   - Edit service details
-   - Update service images
-   - Modify pricing
-   - Organize service categories
-
-3. **Team Management**
-   - Add team members
-   - Edit profiles
-   - Update photos
-   - Modify bios
-   - Set team order
-
-### Media Library
-1. **Uploading Images**
-   - Click "Upload Media"
-   - Select files
-   - Add descriptions
-   - Set categories
-   - Optimize images
-
-2. **Managing Media**
-   - View all uploaded files
-   - Edit file details
-   - Delete unused files
-   - Organize by categories
-   - Search for specific files
-
-### Contact Management
-1. **Viewing Inquiries**
-   - See all submitted forms
-   - Filter by date/status
-   - View detailed messages
-   - Export inquiries
-
-2. **Responding to Inquiries**
-   - Open inquiry details
-   - Reply to message
-   - Mark as read/unread
-   - Set status (New/In Progress/Completed)
-   - Add notes
 
 ## Content Management Guide
 
@@ -243,32 +194,42 @@
    - Check team information
    - Update testimonials
 
-## Support and Help
 
-### Getting Assistance
-1. **Technical Support**
-   - Email: [Support Email]
-   - Phone: [Support Phone]
-   - Response time: Within 24 hours
 
-2. **Content Updates**
-   - Email: [Content Email]
-   - Phone: [Content Phone]
-   - Response time: Within 48 hours
+This guide is regularly updated. For the latest version, please check the admin dashboard or contact the support team.
 
-### Training Sessions
-1. **Available Training**
-   - Admin dashboard usage
-   - Content management
-   - Image optimization
-   - Best practices
+## Environment Variables
 
-2. **Scheduling Training**
-   - Contact support team
-   - Choose preferred time
-   - Select training topics
-   - Receive confirmation
+Create a `.env` file in the root directory and add:
+
+```env
+VITE_FIREBASE_API_KEY=your_firebase_api_key
+VITE_FIREBASE_AUTH_DOMAIN=your_firebase_auth_domain
+VITE_FIREBASE_PROJECT_ID=your_firebase_project_id
+VITE_FIREBASE_STORAGE_BUCKET=your_firebase_storage_bucket
+VITE_FIREBASE_MESSAGING_SENDER_ID=your_firebase_messaging_sender_id
+VITE_FIREBASE_APP_ID=your_firebase_app_id
+
+VITE_CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name
+VITE_CLOUDINARY_UPLOAD_PRESET=your_cloudinary_upload_preset
+```
+
+## Deployment
+
+You can deploy this project to any static hosting provider. Popular options:
+
+- **Vercel:** [vercel.com](https://vercel.com/)
+- **Netlify:** [netlify.com](https://netlify.com/)
+- **Firebase Hosting:** [firebase.google.com/products/hosting](https://firebase.google.com/products/hosting)
+
+Follow the provider's instructions for deploying a React app.
+
+## Contact
+
+- **Project Maintainer:** [Sarverjii](https://github.com/Sarverjii)
+- **Repository:** [https://github.com/Sarverjii/Architecture-Firm-Website.git](https://github.com/Sarverjii/Architecture-Firm-Website.git)
+- **Email:** sarverjii@gmail.com
 
 ---
 
-This guide is regularly updated. For the latest version, please check the admin dashboard or contact the support team.
+> _This project is a modern, scalable solution for architecture and design firms looking to showcase their work and connect with clients online._

@@ -25,7 +25,7 @@ function ServicesGrid() {
     },
     {
       title: "Turnkey Interior Design Services",
-      link: "/services/turnkeySit back and relax while we manage your entire interior project from start to finish. We handle design, procurement, and execution—delivered ready to use."
+      link: "Turnkey Sit back and relax while we manage your entire interior project from start to finish. We handle design, procurement, and execution—delivered ready to use."
     },
     {
       title: "Custom Furniture Manufacturer",

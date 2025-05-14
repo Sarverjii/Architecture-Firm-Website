@@ -65,6 +65,46 @@ export default function AdminDashboard() {
         <hr />
         <br />
 
+
+        {/* Projects Section */}
+        <section className={styles.section}>
+          <div className={styles.sectionHeader}>
+            <h3>Your Projects</h3>
+            <Link to="/AdminProjects">
+              <button className={styles.viewAllButton}>View All</button>
+            </Link>
+          </div>
+          <ProjectsList onClick={handleProjectClick} numberOfProjects={4} />
+        </section>
+
+        <hr /><br />
+
+        {/* Messages Section */}
+        <section className={styles.section}>
+          <div className={styles.sectionHeader}>
+            <h3>Your Messages</h3>
+            <Link to="/AdminMessages">
+              <button className={styles.viewAllButton}>View All</button>
+            </Link>
+          </div>
+          <MessagesList numberOfProjects={6}/>
+        </section>
+        <hr /><br />
+
+        {/* Clients Section */}
+        <section className={styles.section}>
+          <div className={styles.sectionHeader}>
+            <h3>Your Clients</h3>
+            <Link to="/AdminClients">
+              <button className={styles.viewAllButton}>View All</button>
+            </Link>
+          </div>
+          <ClientList numberOfProjects={6}/>
+        </section>
+        <hr /><br />
+
+
+        
         {/* Password Change Section */}
         <section className={styles.section}>
           <div className={styles.sectionHeader}>
@@ -107,43 +147,6 @@ export default function AdminDashboard() {
           </form>
         </section>
 
-        <hr /><br />
-
-        {/* Projects Section */}
-        <section className={styles.section}>
-          <div className={styles.sectionHeader}>
-            <h3>Your Projects</h3>
-            <Link to="/AdminProjects">
-              <button className={styles.viewAllButton}>View All</button>
-            </Link>
-          </div>
-          <ProjectsList onClick={handleProjectClick} numberOfProjects={4} />
-        </section>
-
-        <hr /><br />
-
-        {/* Messages Section */}
-        <section className={styles.section}>
-          <div className={styles.sectionHeader}>
-            <h3>Your Messages</h3>
-            <Link to="/AdminMessages">
-              <button className={styles.viewAllButton}>View All</button>
-            </Link>
-          </div>
-          <MessagesList numberOfProjects={6}/>
-        </section>
-        <hr /><br />
-
-        {/* Clients Section */}
-        <section className={styles.section}>
-          <div className={styles.sectionHeader}>
-            <h3>Your Clients</h3>
-            <Link to="/AdminClients">
-              <button className={styles.viewAllButton}>View All</button>
-            </Link>
-          </div>
-          <ClientList numberOfProjects={6}/>
-        </section>
       </main>
     </div>
   );

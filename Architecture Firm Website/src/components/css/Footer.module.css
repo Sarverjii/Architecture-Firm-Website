@@ -129,10 +129,11 @@
 
 .copyright p {
   margin: 0;
+  color: #ebe9d9;
 }
 
 .termsSection a {
-  color: #bdb9a3;
+  color: #ebe9d9;
   text-decoration: none;
 }
 
@@ -141,7 +142,7 @@
 }
 
 .hintt {
-  color: #bdb9a3;
+  color: #ebe9d9;
   text-decoration: none;
   font-weight: 600;
 }
